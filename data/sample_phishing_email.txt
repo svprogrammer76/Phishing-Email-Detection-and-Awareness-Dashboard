@@ -1,0 +1,20 @@
+From: Example Account Security <alerts@account-check.invalid.test>
+To: Student Sample <student@example.org>
+Subject: URGENT: Verify your account immediately or it will be suspended!
+Date: Tue, 06 Oct 2026 09:00:00 +0530
+
+Dear customer,
+
+We detected unusual activity and your account will be closed today unless you verify your password immediately.
+
+Confirm your account credentials and personal information using this link:
+http://192.0.2.10/secure/account-verification
+
+Failure to act within 24 hours may result in permanent suspension and a penalty.
+
+Regards,
+Example Account Security Team
+
+---
+SYNTHETIC TRAINING SAMPLE — fictional content and documentation-only IP address.
+Do not visit the URL or enter real credentials. This message is for local defensive testing only.

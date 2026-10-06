@@ -1,0 +1,501 @@
+email_id,sender,sender_domain,subject,body,urls,attachment_name,label
+SYN-0001,hr.update0@example.com,example.com,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0002,fake.hr.request1@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0003,meeting.reminder2@example.org,example.org,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0004,fake.invoice3@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0005,hr.update4@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0006,fake.account.verification5@example.com,example.com,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0007,hr.update6@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0008,fake.invoice7@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0009,meeting.reminder8@invalid.test,invalid.test,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0010,fake.invoice9@invalid.test,invalid.test,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0011,shopping.confirmation10@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0012,fake.executive.request11@example.org,example.org,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0013,password.confirmation12@example.net,example.net,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0014,fake.prize13@example.org,example.org,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0015,meeting.reminder14@example.net,example.net,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0016,fake.account.verification15@example.com,example.com,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0017,password.confirmation16@example.com,example.com,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0018,fake.prize17@example.net,example.net,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0019,shopping.confirmation18@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0020,fake.hr.request19@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0021,hr.update20@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0022,fake.account.verification21@example.net,example.net,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0023,newsletter22@example.org,example.org,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0024,fake.hr.request23@example.com,example.com,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0025,university.notice24@example.org,example.org,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0026,fake.executive.request25@example.net,example.net,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0027,hr.update26@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0028,fake.executive.request27@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0029,password.confirmation28@example.net,example.net,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0030,fake.password.expiry29@example.net,example.net,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0031,project.update30@example.net,example.net,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0032,fake.prize31@example.org,example.org,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0033,shopping.confirmation32@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0034,fake.delivery33@example.org,example.org,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0035,meeting.reminder34@example.org,example.org,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0036,fake.password.expiry35@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0037,shopping.confirmation36@example.org,example.org,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0038,fake.hr.request37@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0039,university.notice38@example.org,example.org,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0040,fake.executive.request39@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0041,newsletter40@invalid.test,invalid.test,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0042,fake.prize41@example.com,example.com,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0043,meeting.reminder42@example.net,example.net,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0044,fake.invoice43@invalid.test,invalid.test,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0045,password.confirmation44@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0046,fake.invoice45@example.net,example.net,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0047,project.update46@example.org,example.org,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0048,fake.hr.request47@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0049,password.confirmation48@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0050,fake.prize49@example.org,example.org,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0051,project.update50@invalid.test,invalid.test,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0052,fake.account.verification51@example.com,example.com,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0053,hr.update52@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0054,fake.hr.request53@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0055,password.confirmation54@example.com,example.com,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0056,fake.password.expiry55@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0057,fictional.bank.notice56@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0058,fake.delivery57@example.com,example.com,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0059,hr.update58@example.net,example.net,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0060,fake.executive.request59@example.net,example.net,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0061,hr.update60@example.net,example.net,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0062,fake.password.expiry61@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0063,fictional.bank.notice62@example.com,example.com,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0064,fake.hr.request63@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0065,project.update64@example.com,example.com,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0066,fake.executive.request65@example.net,example.net,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0067,meeting.reminder66@example.org,example.org,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0068,fake.prize67@example.org,example.org,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0069,university.notice68@example.net,example.net,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0070,fake.password.expiry69@example.com,example.com,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0071,hr.update70@example.net,example.net,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0072,fake.executive.request71@example.net,example.net,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0073,meeting.reminder72@example.com,example.com,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0074,fake.invoice73@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0075,hr.update74@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0076,fake.executive.request75@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0077,project.update76@example.org,example.org,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0078,fake.hr.request77@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0079,project.update78@example.net,example.net,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0080,fake.delivery79@invalid.test,invalid.test,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0081,meeting.reminder80@example.org,example.org,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0082,fake.hr.request81@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0083,password.confirmation82@example.net,example.net,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0084,fake.password.expiry83@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0085,hr.update84@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0086,fake.invoice85@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0087,newsletter86@example.com,example.com,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0088,fake.delivery87@example.org,example.org,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0089,meeting.reminder88@example.com,example.com,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0090,fake.account.verification89@example.com,example.com,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0091,meeting.reminder90@example.com,example.com,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0092,fake.account.verification91@example.net,example.net,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0093,hr.update92@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0094,fake.prize93@invalid.test,invalid.test,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0095,meeting.reminder94@example.org,example.org,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0096,fake.hr.request95@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0097,meeting.reminder96@invalid.test,invalid.test,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0098,fake.executive.request97@invalid.test,invalid.test,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0099,meeting.reminder98@example.com,example.com,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0100,fake.account.verification99@invalid.test,invalid.test,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0101,newsletter100@invalid.test,invalid.test,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0102,fake.password.expiry101@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0103,university.notice102@example.com,example.com,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0104,fake.account.verification103@invalid.test,invalid.test,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0105,newsletter104@example.com,example.com,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0106,fake.invoice105@example.org,example.org,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0107,meeting.reminder106@invalid.test,invalid.test,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0108,fake.invoice107@invalid.test,invalid.test,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0109,project.update108@example.net,example.net,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0110,fake.password.expiry109@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0111,hr.update110@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0112,fake.executive.request111@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0113,university.notice112@example.com,example.com,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0114,fake.account.verification113@example.org,example.org,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0115,project.update114@invalid.test,invalid.test,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0116,fake.password.expiry115@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0117,meeting.reminder116@invalid.test,invalid.test,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0118,fake.account.verification117@example.org,example.org,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0119,password.confirmation118@example.com,example.com,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0120,fake.password.expiry119@example.net,example.net,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0121,fictional.bank.notice120@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0122,fake.password.expiry121@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0123,project.update122@example.org,example.org,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0124,fake.prize123@example.org,example.org,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0125,university.notice124@example.com,example.com,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0126,fake.hr.request125@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0127,university.notice126@example.com,example.com,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0128,fake.delivery127@invalid.test,invalid.test,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0129,project.update128@example.com,example.com,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0130,fake.delivery129@example.com,example.com,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0131,project.update130@example.com,example.com,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0132,fake.delivery131@example.com,example.com,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0133,meeting.reminder132@invalid.test,invalid.test,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0134,fake.account.verification133@example.org,example.org,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0135,university.notice134@example.com,example.com,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0136,fake.password.expiry135@example.net,example.net,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0137,shopping.confirmation136@example.org,example.org,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0138,fake.hr.request137@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0139,meeting.reminder138@example.net,example.net,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0140,fake.password.expiry139@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0141,shopping.confirmation140@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0142,fake.prize141@example.com,example.com,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0143,university.notice142@invalid.test,invalid.test,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0144,fake.delivery143@example.com,example.com,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0145,hr.update144@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0146,fake.delivery145@example.net,example.net,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0147,project.update146@example.net,example.net,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0148,fake.account.verification147@example.org,example.org,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0149,newsletter148@example.net,example.net,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0150,fake.invoice149@invalid.test,invalid.test,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0151,shopping.confirmation150@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0152,fake.hr.request151@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0153,hr.update152@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0154,fake.prize153@example.com,example.com,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0155,hr.update154@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0156,fake.prize155@example.net,example.net,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0157,meeting.reminder156@example.net,example.net,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0158,fake.invoice157@example.net,example.net,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0159,fictional.bank.notice158@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0160,fake.executive.request159@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0161,hr.update160@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0162,fake.executive.request161@example.net,example.net,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0163,university.notice162@example.com,example.com,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0164,fake.prize163@example.org,example.org,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0165,shopping.confirmation164@example.org,example.org,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0166,fake.hr.request165@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0167,password.confirmation166@example.com,example.com,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0168,fake.account.verification167@example.com,example.com,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0169,project.update168@example.com,example.com,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0170,fake.executive.request169@example.net,example.net,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0171,project.update170@invalid.test,invalid.test,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0172,fake.invoice171@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0173,shopping.confirmation172@example.net,example.net,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0174,fake.executive.request173@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0175,newsletter174@example.org,example.org,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0176,fake.hr.request175@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0177,hr.update176@example.net,example.net,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0178,fake.executive.request177@invalid.test,invalid.test,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0179,project.update178@example.org,example.org,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0180,fake.executive.request179@example.org,example.org,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0181,project.update180@invalid.test,invalid.test,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0182,fake.account.verification181@example.org,example.org,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0183,newsletter182@invalid.test,invalid.test,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0184,fake.executive.request183@example.org,example.org,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0185,shopping.confirmation184@example.org,example.org,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0186,fake.executive.request185@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0187,password.confirmation186@example.com,example.com,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0188,fake.executive.request187@invalid.test,invalid.test,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0189,meeting.reminder188@example.org,example.org,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0190,fake.executive.request189@invalid.test,invalid.test,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0191,newsletter190@example.net,example.net,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0192,fake.executive.request191@example.org,example.org,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0193,meeting.reminder192@example.com,example.com,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0194,fake.hr.request193@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0195,password.confirmation194@example.net,example.net,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0196,fake.prize195@example.com,example.com,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0197,shopping.confirmation196@example.net,example.net,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0198,fake.hr.request197@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0199,newsletter198@example.com,example.com,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0200,fake.account.verification199@example.net,example.net,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0201,project.update200@example.net,example.net,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0202,fake.account.verification201@example.com,example.com,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0203,password.confirmation202@example.net,example.net,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0204,fake.hr.request203@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0205,password.confirmation204@example.com,example.com,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0206,fake.password.expiry205@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0207,shopping.confirmation206@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0208,fake.hr.request207@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0209,university.notice208@example.org,example.org,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0210,fake.prize209@invalid.test,invalid.test,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0211,hr.update210@example.net,example.net,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0212,fake.delivery211@example.net,example.net,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0213,hr.update212@example.net,example.net,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0214,fake.delivery213@example.net,example.net,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0215,password.confirmation214@example.net,example.net,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0216,fake.password.expiry215@example.net,example.net,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0217,project.update216@example.org,example.org,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0218,fake.password.expiry217@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0219,project.update218@example.net,example.net,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0220,fake.password.expiry219@example.com,example.com,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0221,shopping.confirmation220@example.net,example.net,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0222,fake.invoice221@invalid.test,invalid.test,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0223,newsletter222@invalid.test,invalid.test,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0224,fake.password.expiry223@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0225,meeting.reminder224@invalid.test,invalid.test,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0226,fake.executive.request225@example.org,example.org,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0227,hr.update226@example.net,example.net,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0228,fake.delivery227@example.net,example.net,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0229,hr.update228@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0230,fake.hr.request229@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0231,meeting.reminder230@example.org,example.org,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0232,fake.invoice231@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0233,university.notice232@example.org,example.org,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0234,fake.password.expiry233@example.com,example.com,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0235,fictional.bank.notice234@invalid.test,invalid.test,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0236,fake.hr.request235@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0237,password.confirmation236@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0238,fake.password.expiry237@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0239,project.update238@example.com,example.com,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0240,fake.executive.request239@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0241,password.confirmation240@example.org,example.org,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0242,fake.invoice241@invalid.test,invalid.test,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0243,university.notice242@example.org,example.org,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0244,fake.executive.request243@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0245,fictional.bank.notice244@example.org,example.org,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0246,fake.executive.request245@invalid.test,invalid.test,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0247,newsletter246@invalid.test,invalid.test,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0248,fake.delivery247@invalid.test,invalid.test,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0249,fictional.bank.notice248@example.org,example.org,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0250,fake.hr.request249@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0251,fictional.bank.notice250@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0252,fake.executive.request251@example.org,example.org,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0253,shopping.confirmation252@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0254,fake.hr.request253@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0255,shopping.confirmation254@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0256,fake.account.verification255@example.net,example.net,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0257,meeting.reminder256@example.net,example.net,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0258,fake.prize257@example.net,example.net,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0259,hr.update258@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0260,fake.invoice259@example.org,example.org,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0261,password.confirmation260@example.org,example.org,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0262,fake.hr.request261@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0263,hr.update262@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0264,fake.password.expiry263@example.net,example.net,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0265,fictional.bank.notice264@invalid.test,invalid.test,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0266,fake.account.verification265@example.org,example.org,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0267,password.confirmation266@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0268,fake.executive.request267@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0269,password.confirmation268@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0270,fake.account.verification269@example.net,example.net,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0271,shopping.confirmation270@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0272,fake.executive.request271@invalid.test,invalid.test,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0273,meeting.reminder272@invalid.test,invalid.test,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0274,fake.invoice273@example.net,example.net,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0275,password.confirmation274@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0276,fake.account.verification275@invalid.test,invalid.test,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0277,newsletter276@invalid.test,invalid.test,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0278,fake.hr.request277@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0279,fictional.bank.notice278@example.org,example.org,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0280,fake.delivery279@example.com,example.com,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0281,password.confirmation280@example.com,example.com,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0282,fake.account.verification281@invalid.test,invalid.test,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0283,project.update282@invalid.test,invalid.test,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0284,fake.invoice283@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0285,shopping.confirmation284@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0286,fake.prize285@example.org,example.org,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0287,fictional.bank.notice286@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0288,fake.prize287@invalid.test,invalid.test,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0289,shopping.confirmation288@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0290,fake.prize289@example.com,example.com,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0291,fictional.bank.notice290@example.com,example.com,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0292,fake.hr.request291@example.com,example.com,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0293,newsletter292@example.org,example.org,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0294,fake.hr.request293@example.com,example.com,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0295,university.notice294@example.com,example.com,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0296,fake.invoice295@example.org,example.org,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0297,university.notice296@example.org,example.org,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0298,fake.invoice297@example.org,example.org,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0299,fictional.bank.notice298@example.com,example.com,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0300,fake.delivery299@example.org,example.org,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0301,fictional.bank.notice300@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0302,fake.executive.request301@example.net,example.net,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0303,project.update302@example.com,example.com,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0304,fake.executive.request303@example.org,example.org,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0305,shopping.confirmation304@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0306,fake.delivery305@example.com,example.com,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0307,shopping.confirmation306@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0308,fake.password.expiry307@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0309,hr.update308@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0310,fake.account.verification309@example.net,example.net,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0311,hr.update310@example.com,example.com,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0312,fake.prize311@invalid.test,invalid.test,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0313,newsletter312@example.com,example.com,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0314,fake.delivery313@example.net,example.net,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0315,university.notice314@invalid.test,invalid.test,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0316,fake.executive.request315@invalid.test,invalid.test,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0317,hr.update316@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0318,fake.prize317@invalid.test,invalid.test,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0319,project.update318@invalid.test,invalid.test,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0320,fake.invoice319@example.net,example.net,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0321,fictional.bank.notice320@invalid.test,invalid.test,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0322,fake.password.expiry321@example.net,example.net,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0323,newsletter322@example.org,example.org,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0324,fake.executive.request323@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0325,shopping.confirmation324@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0326,fake.invoice325@invalid.test,invalid.test,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0327,password.confirmation326@example.net,example.net,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0328,fake.account.verification327@invalid.test,invalid.test,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0329,newsletter328@example.org,example.org,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0330,fake.password.expiry329@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0331,newsletter330@example.net,example.net,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0332,fake.prize331@example.net,example.net,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0333,shopping.confirmation332@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0334,fake.delivery333@example.org,example.org,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0335,hr.update334@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0336,fake.hr.request335@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0337,fictional.bank.notice336@example.org,example.org,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0338,fake.hr.request337@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0339,fictional.bank.notice338@invalid.test,invalid.test,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0340,fake.executive.request339@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0341,hr.update340@example.net,example.net,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0342,fake.invoice341@invalid.test,invalid.test,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0343,meeting.reminder342@example.net,example.net,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0344,fake.hr.request343@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0345,fictional.bank.notice344@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0346,fake.password.expiry345@example.net,example.net,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0347,newsletter346@invalid.test,invalid.test,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0348,fake.prize347@example.net,example.net,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0349,shopping.confirmation348@example.org,example.org,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0350,fake.account.verification349@example.org,example.org,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0351,newsletter350@example.com,example.com,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0352,fake.hr.request351@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0353,meeting.reminder352@example.org,example.org,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0354,fake.hr.request353@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0355,shopping.confirmation354@example.net,example.net,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0356,fake.account.verification355@example.org,example.org,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0357,shopping.confirmation356@example.org,example.org,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0358,fake.prize357@example.org,example.org,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0359,shopping.confirmation358@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0360,fake.hr.request359@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0361,shopping.confirmation360@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0362,fake.account.verification361@example.net,example.net,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0363,project.update362@invalid.test,invalid.test,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0364,fake.account.verification363@example.com,example.com,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0365,shopping.confirmation364@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0366,fake.password.expiry365@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0367,newsletter366@example.org,example.org,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0368,fake.account.verification367@example.net,example.net,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0369,fictional.bank.notice368@example.com,example.com,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0370,fake.executive.request369@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0371,password.confirmation370@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0372,fake.account.verification371@example.com,example.com,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0373,project.update372@example.org,example.org,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0374,fake.executive.request373@example.net,example.net,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0375,hr.update374@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0376,fake.account.verification375@invalid.test,invalid.test,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0377,meeting.reminder376@invalid.test,invalid.test,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0378,fake.password.expiry377@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0379,shopping.confirmation378@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0380,fake.prize379@example.com,example.com,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0381,hr.update380@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0382,fake.hr.request381@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0383,shopping.confirmation382@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0384,fake.invoice383@example.org,example.org,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0385,project.update384@example.com,example.com,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0386,fake.invoice385@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0387,password.confirmation386@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0388,fake.hr.request387@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0389,shopping.confirmation388@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0390,fake.invoice389@example.net,example.net,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0391,shopping.confirmation390@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0392,fake.account.verification391@example.org,example.org,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0393,shopping.confirmation392@example.org,example.org,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0394,fake.password.expiry393@example.com,example.com,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0395,meeting.reminder394@example.org,example.org,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0396,fake.prize395@example.org,example.org,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0397,hr.update396@example.com,example.com,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0398,fake.invoice397@example.net,example.net,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0399,shopping.confirmation398@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0400,fake.account.verification399@invalid.test,invalid.test,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0401,shopping.confirmation400@invalid.test,invalid.test,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0402,fake.prize401@invalid.test,invalid.test,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0403,fictional.bank.notice402@example.com,example.com,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0404,fake.delivery403@example.com,example.com,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0405,password.confirmation404@example.net,example.net,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0406,fake.delivery405@example.net,example.net,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0407,university.notice406@example.com,example.com,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0408,fake.invoice407@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0409,shopping.confirmation408@example.com,example.com,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0410,fake.executive.request409@example.org,example.org,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0411,fictional.bank.notice410@invalid.test,invalid.test,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0412,fake.prize411@example.org,example.org,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0413,password.confirmation412@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0414,fake.account.verification413@invalid.test,invalid.test,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0415,newsletter414@invalid.test,invalid.test,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0416,fake.prize415@example.net,example.net,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0417,hr.update416@example.org,example.org,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0418,fake.prize417@invalid.test,invalid.test,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0419,fictional.bank.notice418@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0420,fake.hr.request419@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0421,university.notice420@invalid.test,invalid.test,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0422,fake.account.verification421@example.net,example.net,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0423,shopping.confirmation422@example.net,example.net,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0424,fake.account.verification423@invalid.test,invalid.test,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0425,university.notice424@invalid.test,invalid.test,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0426,fake.password.expiry425@example.com,example.com,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0427,meeting.reminder426@example.net,example.net,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0428,fake.delivery427@invalid.test,invalid.test,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0429,fictional.bank.notice428@example.com,example.com,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0430,fake.invoice429@example.net,example.net,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0431,project.update430@example.net,example.net,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0432,fake.password.expiry431@invalid.test,invalid.test,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0433,hr.update432@example.com,example.com,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0434,fake.hr.request433@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0435,project.update434@example.net,example.net,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0436,fake.delivery435@example.com,example.com,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0437,password.confirmation436@example.com,example.com,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0438,fake.invoice437@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0439,fictional.bank.notice438@example.com,example.com,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0440,fake.hr.request439@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0441,fictional.bank.notice440@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0442,fake.delivery441@example.net,example.net,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0443,password.confirmation442@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0444,fake.password.expiry443@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0445,fictional.bank.notice444@example.org,example.org,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0446,fake.password.expiry445@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0447,project.update446@example.com,example.com,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0448,fake.prize447@invalid.test,invalid.test,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0449,newsletter448@example.net,example.net,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0450,fake.executive.request449@example.com,example.com,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0451,shopping.confirmation450@example.net,example.net,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0452,fake.executive.request451@invalid.test,invalid.test,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0453,project.update452@invalid.test,invalid.test,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0454,fake.delivery453@invalid.test,invalid.test,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0455,newsletter454@example.net,example.net,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0456,fake.delivery455@invalid.test,invalid.test,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0457,fictional.bank.notice456@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0458,fake.executive.request457@example.org,example.org,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0459,meeting.reminder458@invalid.test,invalid.test,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0460,fake.invoice459@invalid.test,invalid.test,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0461,university.notice460@example.net,example.net,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0462,fake.hr.request461@invalid.test,invalid.test,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0463,password.confirmation462@invalid.test,invalid.test,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0464,fake.hr.request463@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0465,fictional.bank.notice464@example.com,example.com,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0466,fake.invoice465@example.net,example.net,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0467,hr.update466@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0468,fake.account.verification467@invalid.test,invalid.test,Urgent: verify your account,"Dear customer, verify your account immediately or access will be suspended. Login at http://verify.invalid.test/account.",http://verify.invalid.test/account.,,PHISHING
+SYN-0469,university.notice468@example.org,example.org,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0470,fake.password.expiry469@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0471,hr.update470@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0472,fake.executive.request471@example.net,example.net,Confidential gift card request,Purchase gift cards urgently and send the codes to me. Do not discuss this request.,,,PHISHING
+SYN-0473,newsletter472@invalid.test,invalid.test,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0474,fake.hr.request473@example.com,example.com,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0475,newsletter474@invalid.test,invalid.test,Monthly research newsletter,Here are this month's research and community updates.,,,LEGITIMATE
+SYN-0476,fake.prize475@invalid.test,invalid.test,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0477,university.notice476@example.com,example.com,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0478,fake.invoice477@example.net,example.net,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0479,meeting.reminder478@example.com,example.com,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0480,fake.password.expiry479@example.com,example.com,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0481,hr.update480@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0482,fake.invoice481@example.net,example.net,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0483,university.notice482@example.com,example.com,Campus library hours update,The library will follow the posted schedule this week.,,,LEGITIMATE
+SYN-0484,fake.prize483@example.com,example.com,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0485,shopping.confirmation484@example.net,example.net,Order confirmation,Your sample order has been recorded. This is a fictional confirmation.,,,LEGITIMATE
+SYN-0486,fake.prize485@invalid.test,invalid.test,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
+SYN-0487,project.update486@example.org,example.org,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0488,fake.delivery487@invalid.test,invalid.test,Delivery problem,Your package is delayed. Verify your account at http://bit.ly/sample-delivery.,http://bit.ly/sample-delivery.,,PHISHING
+SYN-0489,project.update488@example.org,example.org,Weekly project notes,The team notes from today's meeting are ready for review.,,,LEGITIMATE
+SYN-0490,fake.invoice489@example.com,example.com,Payment overdue,Please pay this invoice immediately to avoid a penalty. Reply with payment details.,,,PHISHING
+SYN-0491,password.confirmation490@example.org,example.org,Password changed,This confirms your password was changed. Contact support if you did not make this change.,,,LEGITIMATE
+SYN-0492,fake.password.expiry491@example.org,example.org,Password expires today,Your password expired. Login immediately at http://192.0.2.10/login to restore access.,http://192.0.2.10/login,,PHISHING
+SYN-0493,meeting.reminder492@invalid.test,invalid.test,Planning meeting tomorrow,Our planning meeting is scheduled for 10 AM tomorrow.,,,LEGITIMATE
+SYN-0494,fake.hr.request493@example.net,example.net,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0495,fictional.bank.notice494@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0496,fake.hr.request495@example.com,example.com,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0497,fictional.bank.notice496@example.net,example.net,Monthly statement available,Your fictional Example Bank statement is available in the sample portal.,,,LEGITIMATE
+SYN-0498,fake.hr.request497@example.org,example.org,Urgent HR payroll check,"Dear user, send your bank account details immediately for payroll verification.",,,PHISHING
+SYN-0499,hr.update498@invalid.test,invalid.test,Benefits enrollment reminder,Please review the benefits summary on the internal portal.,,,LEGITIMATE
+SYN-0500,fake.prize499@example.net,example.net,You won a reward,Claim your prize now by confirming your password and personal information.,,,PHISHING
